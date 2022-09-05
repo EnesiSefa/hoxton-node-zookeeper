@@ -37,6 +37,8 @@ SELECT * FROM "animals" WHERE name LIKE "%m%" -- finds every row that has the le
 
 ALTER TABLE "animals" ADD COLUMN origin; -- adds new column into the table
 
+ALTER TABLE "animals" ADD ORIGIN TEXT NOT NULL DEFAULT "Africa"--- add a new column and a default value
+
 
 
 --- deleting a column from the table
