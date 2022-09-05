@@ -33,14 +33,14 @@ SELECT * FROM "animals" WHERE name LIKE "%m%" -- finds every row that has the le
 
 
 
--- updating a table
+-- updating the column from the table
 
 ALTER TABLE "animals" ADD COLUMN origin; -- adds new column into the table
 
 
 
 --- deleting a column from the table
-ALTER TABLE "animals" DROP COLUMN favorite_food; -- deletes the 
+ALTER TABLE "animals" DROP COLUMN favorite_food; -- deletes the column with that name
 
 
 --- deleting a row from the table
